@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="darkColorPrimary">#607D8B</color>
+    <color name="darkColorPrimaryDark">#455A64</color>
+    <color name="darkColorAccent">#FF5252</color>
+
+    <color name="colorPrimary">#607D8B</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="primary_light">#CFD8DC</color>
+    <color name="colorAccent">#FF5252</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+
+    <!-- Splash Screen -->
+    <color name="splashColor">#000000</color>
+
+    <!-- Toolbar -->
+    <color name="toolbarIcon">#FFFFFF</color>
+    <color name="toolbarIconDark">#FFFFFF</color>
+
+    <!-- Navigation View -->
+    <color name="navigationViewTitle">#FFFFFF</color>
+    <color name="navigationViewTitleBack">#55000000</color>
+
+    <color name="navigationViewText">#D9000000</color>
+    <color name="navigationViewTextDark">#FFFFFF</color>
+    <color name="navigationViewTextSelected">#DC4316</color>
+    <color name="navigationViewTextSelectedDark">#DC4316</color>
+    <color name="navigationViewSelectedBackground">#00000000</color>
+    <color name="navigationViewSelectedBackgroundDark">#00000000</color>
+
+    <!-- Card -->
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="cardBackgroundDark">#222222</color>
+
+    <!-- Ripple -->
+    <color name="rippleColor">#4D000000</color>
+    <color name="rippleColorDark">#4DFFFFFF</color>
+
+    <!-- Attributes -->
+    <color name="mainBackground">#EAEAEA</color>
+    <color name="mainBackgroundDark">#181818</color>
+    <color name="primaryText">#D9000000</color>
+    <color name="primaryTextDark">#FFFFFF</color>
+    <color name="secondaryText">#8C000000</color>
+    <color name="secondaryTextDark">#B3FFFFFF</color>
+
+    <color name="dividerList">#18000000</color>
+    <color name="dividerListDark">#18FFFFFF</color>
+
+    <!-- Favorite Wallpaper -->
+    <color name="favoriteColor">#DC4316</color>
+
+
+    <!-- Wallpaper Preview -->
+    <color name="wallpaperStatusBar">#AA000000</color>
+    <color name="wallpaperToolbar">#66000000</color>
+
+</resources>

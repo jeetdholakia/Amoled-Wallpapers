@@ -1,0 +1,19 @@
+[
+  {
+    "outputType": {
+      "type": "APK"
+    },
+    "apkInfo": {
+      "type": "MAIN",
+      "splits": [],
+      "versionCode": 5
+    },
+    "outputFile": {
+      "path": "/Users/jeetdholakia/Workspaces/Android/S8 Amoled Wallpapers/app/release/app-release.apk"
+    },
+    "properties": {
+      "packageId": "com.uxgarage.amoledblackwallpapers",
+      "split": ""
+    }
+  }
+]

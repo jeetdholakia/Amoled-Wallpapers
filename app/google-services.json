@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "785574437105",
+    "firebase_url": "https://amoled-wallpapers-c2151.firebaseio.com",
+    "project_id": "amoled-wallpapers-c2151",
+    "storage_bucket": "amoled-wallpapers-c2151.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785574437105:android:24355eb4d4d33565",
+        "android_client_info": {
+          "package_name": "com.uxgarage.amoledblackwallpapers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785574437105-qv241utllrv2fq4f718asolnj76ajb9k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uxgarage.amoledblackwallpapers",
+            "certificate_hash": "e32e2298aa8d928d02c77df599860825ac519d0f"
+          }
+        },
+        {
+          "client_id": "785574437105-mf5muc0c79jaqc19a8mmn55rh2927jte.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnON2eJiOZPEdz0IUn6AB84mwy13Sh8ik"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785574437105-mf5muc0c79jaqc19a8mmn55rh2927jte.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

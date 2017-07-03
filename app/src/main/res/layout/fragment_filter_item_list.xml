@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/dialog_item_padding"
+    android:paddingEnd="@dimen/dialog_content_padding"
+    android:paddingLeft="@dimen/dialog_content_padding"
+    android:paddingRight="@dimen/dialog_content_padding"
+    android:paddingStart="@dimen/dialog_content_padding"
+    android:paddingTop="@dimen/dialog_item_padding"
+    android:theme="@style/ButtonStyle"
+    tools:ignore="MissingPrefix">
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:theme="@style/CheckBoxStyle" />
+
+    <TextView
+        android:id="@+id/title"
+        fontPath="fonts/Font-Regular.ttf"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingLeft="@dimen/content_padding"
+        android:paddingStart="@dimen/content_padding"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="@dimen/text_content_title" />
+
+    <TextView
+        android:id="@+id/counter"
+        fontPath="fonts/Font-Medium.ttf"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="@dimen/content_padding"
+        android:layout_marginStart="@dimen/content_padding"
+        android:gravity="center"
+        android:textSize="@dimen/text_content" />
+
+</LinearLayout>

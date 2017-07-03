@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingPrefix">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="@dimen/card_margin"
+            android:paddingLeft="@dimen/card_margin"
+            android:paddingStart="@dimen/card_margin"
+            android:paddingTop="@dimen/card_margin"
+            android:scrollbarSize="4dp"
+            android:scrollbarThumbVertical="?attr/colorAccent"
+            android:scrollbars="vertical" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/search_result"
+        fontPath="fonts/Font-Medium.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/content_margin"
+        android:gravity="center"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="@dimen/text_content_subtitle"
+        android:visibility="gone" />
+
+    <com.rafakob.drawme.DrawMeButton
+        android:id="@+id/popup_bubble"
+        fontPath="fonts/Font-Medium.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/content_margin"
+        android:drawablePadding="2dp"
+        android:text="@string/wallpaper_new_added"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:visibility="gone"
+        app:dm_backColor="?attr/colorAccent"
+        app:dm_shapeRadiusHalfHeight="true" />
+
+    <ImageView
+        android:id="@+id/favorite_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/shadow"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_shadow"
+        android:background="@drawable/toolbar_shadow" />
+
+</FrameLayout>

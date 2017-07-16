@@ -296,6 +296,7 @@ public class WallpapersFragment extends Fragment implements WallpaperListener {
                                     wallpapers = database.getWallpapers();
                                     List<Wallpaper> newWallpapers = new ArrayList<>();
                                     for (WallpaperJson wallpaper : wallpapersJson.getWallpapers) {
+                                        Log.d("Wallpaper debug", "Wallpaper Category: " + wallpaper.category);
                                         newWallpapers.add(new Wallpaper(
                                                 wallpaper.name,
                                                 wallpaper.author,

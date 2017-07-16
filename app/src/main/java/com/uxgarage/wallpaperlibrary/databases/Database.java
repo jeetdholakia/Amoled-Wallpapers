@@ -9,6 +9,7 @@ import android.database.sqlite.SQLiteStatement;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.util.SparseArrayCompat;
+import android.util.Log;
 
 import com.danimahardhika.android.helpers.core.TimeHelper;
 import com.uxgarage.wallpaperlibrary.items.Category;
@@ -170,6 +171,7 @@ public class Database extends SQLiteOpenHelper {
 
         for (int i = 0; i < wallpapers.size(); i++) {
             statement.clearBindings();
+            Log.d("Wallpaper db debug", "Wallpaper Name: " + wallpapers.get(i).getName());
             statement.bindString(1, wallpapers.get(i).getName());
             statement.bindString(2, wallpapers.get(i).getAuthor());
             statement.bindString(3, wallpapers.get(i).getUrl());

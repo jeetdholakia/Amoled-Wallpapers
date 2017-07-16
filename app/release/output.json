@@ -6,7 +6,7 @@
     "apkInfo": {
       "type": "MAIN",
       "splits": [],
-      "versionCode": 5
+      "versionCode": 6
     },
     "outputFile": {
       "path": "/Users/jeetdholakia/Workspaces/Android/S8 Amoled Wallpapers/app/release/app-release.apk"

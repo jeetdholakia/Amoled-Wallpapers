@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2017. Jahir Fiquitiva
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4.0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons.org/licenses/by-sa/4.0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string-array name="credits_banners" formatted="false" tools:ignore="TypographyDashes">
+        <item>http://www.droidviews.com/wp-content/uploads/2017/03/samsung_galaxy_s8_fhd_droidviews_01.jpg</item>
+    </string-array>
+
+    <string-array name="credits_photos" formatted="false" tools:ignore="TypographyDashes">
+        <item>http://tvafterdark.com/wp-content/uploads/2015/07/Game-of-Thrones-Bitmojis-Male-You-Know-Nothing.png</item>
+    </string-array>
+
+    <string-array name="credits_titles">
+        <item>Jay D</item>
+
+    </string-array>
+
+    <string-array name="credits_contents">
+        <item>A self labeled nerd, UI designer, app developer and passionate about all things tech! </item>
+    </string-array>
+
+    <string-array name="credits_buttons">
+        <item>Instagram</item>
+        <item>Facebook|Website|Twitter</item>
+    </string-array>
+
+    <string-array name="credits_links">
+        <item>http://wwww.instagram.com/jayd1992</item>
+        <item>https://www.facebook.com/jeetdholakia/|https://www.jeetdholakia.com/|https://wwww.twitter.com/jayd_1992</item>
+    </string-array>
+
+</resources>

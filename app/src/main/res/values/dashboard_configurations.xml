@@ -7,7 +7,7 @@
 
     <!-- CONFIG: APPLICATION NAME -->
 
-    <string name="app_name">AMOLED Black</string>
+    <!-- <string name="app_name">AMOLED Black</string> -->
 
     <!-- CONFIG: DEFAULT THEME -->
 
@@ -28,7 +28,7 @@
     <string name="muzei_art_source_desc">Sexy and minimal AMOLED wallpapers for your phone</string>
 
     <!-- Muzei base color -->
-    <color name="muzei_color">#000000</color>
+    <!-- <color name="muzei_color">#000000</color> -->
 
     <!-- CONFIG: TOOLBAR -->
 

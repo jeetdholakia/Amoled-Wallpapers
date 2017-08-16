@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+
+
+
+    defaultConfig {
+        applicationId "com.uxgarage.amoledwallpapers"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    /*
+         * WallpaperBoard Library
+         *
+         * How to update?
+         * 1. See latest version at GitHub, https://github.com/danimahardhika/wallpaperboard/releases
+         * 2. Change WallpaperBoard dependency matching latest version
+         * 3. com.github.danimahardhika:wallpaperboard:$versionNumber
+         * 4. Sync Project with Gradle Files
+         * 5. Clean project
+         * 6. Done
+         */
+    compile project(':wallpaperlibrary')
+}

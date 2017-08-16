@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <!-- ======================================================================================= -->
+    <!-- ============================== DASHBOARD CONFIGURATIONS =============================== -->
+    <!-- ======================================================================================= -->
+
+    <string name="splash_screen_title">AMOLED Black</string>
+
+    <!-- CONFIG: APPLICATION NAME -->
+
+    <string name="app_name">AMOLED Black</string>
+
+    <!-- CONFIG: DEFAULT THEME -->
+
+    <!-- Use dark theme as default theme -->
+    <bool name="use_dark_theme">true</bool>
+
+    <!-- CONFIG: MUZEI -->
+
+    <!-- Muzei art source name -->
+    <string name="muzei_art_source_name">Super Dark AMOLED</string>
+
+    <!-- Muzei art source description -->
+    <string name="muzei_art_source_desc">Sexy and minimal AMOLED wallpapers for your phone</string>
+
+    <!-- Muzei base color -->
+    <color name="muzei_color">#000000</color>
+
+    <!-- CONFIG: TOOLBAR -->
+
+    <!-- Toolbar title -->
+    <string name="toolbar_title">AMOLED Black</string>
+
+    <!-- CONFIG: Wallpapers -->
+
+    <!-- Wallpaper json link -->
+    <string name="wallpaper_json">https://drive.google.com/uc?id=0B1GyPx619Gp0RE9hY0h6RXBVNk0</string>
+
+    <!-- Allow to download wallpaper
+    * If disabled user only able to apply wallpaper from dashboard -->
+    <bool name="enable_wallpaper_download">true</bool>
+
+    <!-- CONFIG: NAVIGATION VIEW HEADER -->
+
+    <!-- Navigation view header image
+    * If you want to use image from url, just put the url here
+    * If you want to use image stored in project (drawable folder)
+    * just put image name here without the extension
+    * ex: navigation_view_header.png -> navigation_view_header
+    * If you want to use solid color, you can put hex color code here
+    * ex: <string name="navigation_view_header">#000000</string> -->
+    <string name="navigation_view_header">https://c.slashgear.com/wp-content/uploads/2015/08/AndroidMarshmallow_10.jpg</string>
+
+    <!-- Navigation view header text
+    * Leave empty if you don't want to show any text -->
+    <string name="navigation_view_header_title"></string>
+
+    <!-- CONFIG: ABOUT -->
+
+    <!-- About header image
+    * If you want to use image from url, just put the url here
+    * If you want to use image stored in project (drawable folder)
+    * just put image name here without the extension (ex: about_image.png -> about_image)
+    * If you want to use solid color, you can put hex color code here
+    * ex: <string name="about_image">#000000</string> -->
+    <string name="about_image">http://www.biglittlegeek.com/wp-content/uploads/2015/05/android-lollipop-hd-wallpapers-8.png</string>
+
+    <!-- About profile image
+    * If you want to use image from url, just put the url here
+    * If you want to use image stored in project (drawable folder)
+    * just put image name here without the extension (ex: about_profile_image.png -> about_profile_image) -->
+    <string name="about_profile_image">http://tvafterdark.com/wp-content/uploads/2015/07/Game-of-Thrones-Bitmojis-Male-You-Know-Nothing.png</string>
+
+    <!-- About title above description -->
+    <string name="about_title">Amoled Wallpapers</string>
+
+    <!-- About description below title -->
+    <string name="about_desc"><![CDATA[
+       Passionate developer, designer and fan of all things tech. Thanks for installing my apps and feel free to install other UX Garage apps.
+        ]]></string>
+
+    <!-- Social link inside about
+    * Supported link:
+    * Email, Behance, Dribbble, Facebook, Github, Google+, Instagram, Pinterest, Twitter
+    * The link will be marked as regular website if doesn't listed above
+    *
+    * If you don't want to show social link, just set about_social_links to empty
+    * ex:
+    * <string-array name="about_social_links"></string-array>-->
+    <string-array name="about_social_links">
+        <item>https://play.google.com/store/apps/dev?id=4930273661167398320</item>
+        <item>https://www.instagram.com/jayd.1992</item>
+        <item>https://twitter.com/jayd_1992</item>
+        <item>https://plus.google.com/113263353393860104855</item>
+        <item>http://github.com/jeetdholakia</item>
+    </string-array>
+
+    <!-- Contributors dialog
+    * Take a look inside values/xml/contributors.xml to add contributors -->
+    <bool name="show_contributors_dialog">false</bool>
+
+    <!-- CONFIG: DONATE -->
+
+    <!-- DONATION
+    * Show support development option in navigation view
+    * default: true
+    * change to false to disable it -->
+    <bool name="enable_donation">false</bool>
+
+    <!-- Take a look inside License.java for donation product -->
+
+</resources>
